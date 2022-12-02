@@ -50,17 +50,17 @@ The following are the four major kinds of tasks that are performed using the dat
 #### For Windows Users:
 
 9. (Optional: Not required if database schema already exists) Run the below command to create Schema in database (from wolf_schema.txt) and populate data (from demoData.txt) 
-java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar;lib/*" com.ncsu.wolfpub.contents.CreateContents
+> java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar;lib/*" com.ncsu.wolfpub.contents.CreateContents
 
 
 10. Run the below command to start the Application
-java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar;lib/*" com.ncsu.wolfpub.app.App
+> java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar;lib/*" com.ncsu.wolfpub.app.App
 
 
 #### For Mac Users:
 
 9.  (Optional: Not required if database schema already exists) Run the below command to create Schema in database (from wolf_schema.txt) and populate data (from demoData.txt) 
-java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar:lib/*" com.ncsu.wolfpub.contents.CreateContents
+> java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar:lib/*" com.ncsu.wolfpub.contents.CreateContents
 
 10. Run the below command to start the Application
-java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar:lib/*" com.ncsu.wolfpub.app.App
+> java -cp "target/WolfPublicationsProject-0.0.1-SNAPSHOT-jar-with-dependencies.jar:lib/*" com.ncsu.wolfpub.app.App
